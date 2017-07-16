@@ -1,11 +1,7 @@
-
-
-
 #include "stm32f10x.h"
 #include "delay.h"
 #include "i2c_gen.h"
 
-#include "stm32f10x_i2c.h"
 
 #define LED_PORT		GPIOB
 #define LED_PORT_RCC	RCC_APB2Periph_GPIOB
